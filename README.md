@@ -1,4 +1,4 @@
-# Calcutar
+# Calculator
 
 do not copy without notice
 You can reach me on discord
