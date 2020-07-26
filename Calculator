@@ -1,0 +1,37 @@
+print("Write The First Number")
+local first = io.read()
+print("Write Sec Number")
+local sec = io.read()
+print("1- subtraction")
+print("2- division")
+print("3- multiplication")
+print("4- negation")
+local aga = true
+local added = io.read()
+
+while true do
+    if added == '1' and aga == true then
+        local bra = first + sec
+        print("Its")
+        print(bra)
+        aga = false
+    end
+     if added == '2' and aga == true then
+        local bra = first / sec
+        print("Its")
+        print(bra)
+        aga = false
+    end
+    if added == '3' and aga == true then
+        local bra = first * sec
+        print("Its")
+        print(bra)
+        aga = false
+    end
+    if added == '4' and aga == true then
+        local bra = first - sec
+        print("Its")
+        print(bra)
+        aga = false
+    end
+end
